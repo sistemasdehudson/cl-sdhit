@@ -41,6 +41,8 @@
     "git-repos": [
         "https://github.com/sistemasdehudson/cl-sdhit",
 #        "https://github.com/CybroOdoo/CybroAddons.git -b 17.0",
+        'https://github.com/odoo/odoo -b 16.0',
+        'https://github.com/odoo/enterprise -b 16.0',
         "https://github.com/Yenthe666/auto_backup -b 16.0",
     #localizacion italiana
         "https://github.com/OCA/l10n-italy.git -b 16.0",
