@@ -20,9 +20,9 @@
 
 {
     "name": "sdhit",
-    "version": "17.0.1.0.0",
+    "version": "16.0.1.0.0",
     "category": "Tools",
-    "summary": "Test for v17 CE",
+    "summary": "V16 CE",
     "author": "jeo Software",
     "website": "https://github.com/sistemasdehudson/cl-sdhit",
     "license": "AGPL-3",
@@ -40,8 +40,8 @@
     "port": "8069",
     "git-repos": [
         "https://github.com/sistemasdehudson/cl-sdhit",
-        "https://github.com/CybroOdoo/CybroAddons.git -b 17.0",
-        "https://github.com/Yenthe666/auto_backup -b 17.0",
+#        "https://github.com/CybroOdoo/CybroAddons.git -b 17.0",
+        "https://github.com/Yenthe666/auto_backup -b 16.0",
     #localizacion italiana
 #        "https://github.com/OCA/l10n-italy.git -b 17.0",
 #        'https://github.com/OCA/account-financial-reporting.git -b 17.0',
@@ -68,7 +68,7 @@
     ],
     # list of images to use in the form 'name image-url'
     "docker-images": [
-        "odoo jobiols/odoo-jeo:17.0",
+        "odoo regaby/odoo-ce:16.0",
         "postgres postgres:15.1-alpine",
     ],
 }
