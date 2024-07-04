@@ -31,7 +31,7 @@
     # manifest version, if omitted it is backward compatible
     "env-ver": "2",
     # if Enterprise it installs in a different directory than community
-    "odoo-license": "CE",
+    "odoo-license": "EE",
     # Config to write in odoo.conf
     "config": [
         "workers = 0",
@@ -39,7 +39,7 @@
     ],
     "port": "8069",
     "git-repos": [
-        "https://github.com/sistemasdehudson/cl-sdhit",
+        "https://github.com/sistemasdehudson/cl-sdhit -b 16.0",
 #        "https://github.com/CybroOdoo/CybroAddons.git -b 17.0",
         'https://github.com/odoo/odoo -b 16.0',
         'https://github.com/odoo/enterprise -b 16.0',
